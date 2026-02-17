@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tweeter</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+   <!-- Navbar -->
+<nav class="navbar py-3">
+  <div class="container mx-auto d-flex align-items-center justify-content-center" style="max-width:600px;">
+    
+    <!-- Twitter Icon with a circle css style. -->
+    <div class="twitter-circle d-flex align-items-center justify-content-center me-2">
+      <i class="bi bi-twitter"></i>
+    </div>
+    <!-- Tweeter in dodgerblue -->
+    <span class="tweeter-text fs-3 fw-bold">Tweeter</span>
+
+  </div>
+</nav>
+
+    <!-- Main Content -->
+     <div class="container mx-auto mt-4" style="max-width:600px;">
+
+    <!-- Tweet Box? -->
+     <div class="card shadow-sm mb-4">
+        <div class="card-body p-3">
+
+
+    <!-- Input box -->
+     <div class="d-flex mb-2">
+       <div class="me-3">
+        <div class="rounded-circle bg-secondary" style="width:50px; height:50px;"></div>
+    </div>
+  
+    <div class="flex-grow-1">
+    <textarea id="tweetInput" 
+        class="form control mb-2" 
+        placeholder="What's Happening?" 
+        row="3"></textarea>
+    
+    </div>
+</div>
+
+    <!-- Footer -->
+     <div class="d-flex justify-content-end align-items-center mb-3">
+        <small id="charCount" class="me-3 text-muted">160 char remaining</small>
+        <button class="btn tweet-btn rounded-pill px-4 fw-bold">Tweet</button>
+</div>
+<hr>
+
+    <!--Previous Tweeter Area  -->
+    <div class="d-flex mb-3">
+        <div class="me-3">
+            <div class="rounded-circle bg-secondary" style="width:40px; height:40px"></div>
+     </div>
+    
+    <div class="flex-grow-1">
+        <p class="mb-1"><strong>Chris Sanchez</strong>@CSanchez94 - 5hr</p>
+        <p>I really like 3AM depression cheese</p>
+
+        <div class="tweet-icons mt-2">
+            <i class="bi bi-chat"></i>
+            <i class="bi bi-arrow-repeat"></i>
+            <i class="bi bi-heart"></i>
+            <i class="bi bi-upload"></i>
+             </div>
+           </div>
+        </div>
+           
+        
+        
+        
+        
+        
+        </div>
+    </div>
+
+</div>
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Custom JS -->
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+
+</html>
